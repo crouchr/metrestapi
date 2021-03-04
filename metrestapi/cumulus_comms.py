@@ -57,7 +57,7 @@ def check_cumulus_data_stopped(cumulus_endpoint):
 
     """
 
-    status_code, response_dict = call_rest_api.call_rest_api(cumulus_endpoint, None)
+    status_code, response_dict = call_rest_api(cumulus_endpoint, None)
 
     # Aercus to CumulusMX serial connection down ? - all data now invalid
     if status_code == 200 and response_dict['DataStopped'] :

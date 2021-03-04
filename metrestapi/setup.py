@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-setup(version='1.0.5',
+setup(version='1.0.6',
       description='Functions for handling REST API',
       author='Richard Crouch',
       author_email='richard.crouch100@gmail.com',
